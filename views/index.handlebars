@@ -1,0 +1,40 @@
+<header id = "header">
+    EAT DA BURGER!!!
+</header>
+<div id = 'container'>
+<div id = 'addBurger'>
+    <form id="addBurger"  class="button-size">
+        <textarea id = 'textbox' type="text" name="burger"></textarea>
+        <br>
+        <button type="submit">Add a Burger!!</button>
+    </form>
+</div>
+
+  
+<div id = 'eat'>
+    <h2>Burgers to Eat</h2>
+    {{#each burger}}{{#unless this.Eaten}}
+
+    <p>
+        {{this.Burger}}
+        <button data-burgerid="{{this.id}}" class="eatBurger">Eat Da Burger!</button>
+    </p>
+    {{/unless}}
+    {{/each}}
+
+
+</div>
+<div id = 'eaten'>
+   
+
+
+    <h2>Burgers Devoured</h2>
+        {{#each burger}}{{#if this.Eaten}}
+    <p>
+       {{this.Burger}}
+    </p>
+    {{/if}}
+    {{/each}}
+</div>
+</div>
+

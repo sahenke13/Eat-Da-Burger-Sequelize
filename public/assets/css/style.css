@@ -1,0 +1,50 @@
+body{
+    background: url('https://www.seriouseats.com/recipes/images/2013/07/20130723-bacon-weave-food-lab-burger-step-by-step-27.jpg') ;
+    background-size: cover;
+    text-align: center;
+}
+#eat{
+    float: left;
+    width: 30%;
+    background: gray;
+    height: 300px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+#eaten{
+
+    float: right;
+    width:30%;
+    background: gray;
+    height: 300px;
+    border-radius: 5px;
+    background-color: red;
+
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#header{
+    margin-top: 10%;
+    font-size: 20pt;
+    padding-bottom: 30px;
+
+}
+
+#textbox{
+    width: 250px;
+    height: 1.5em;
+    border-radius: 5px;
+}
+.eatBurger{
+    border-radius: 5px;
+
+}
+
+#addBurger{
+
+    padding-bottom: 10%;
+}
